@@ -1,0 +1,41 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(image.vehicle.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+ul{
+    float: right;
+    margin: 35px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: black;
+    padding:  8px 20px;
+    border: 1px solid black
+}
+ul li a:hover{
+    background-color: skyblue;
+    color:black;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color:#fff;
+    background-color: rgba(0,0,0,0.4);
+    padding: 100px;
+ 
+   
+    
+}
